@@ -1,0 +1,31 @@
+# Visual Studio / .NET build output
+.vs/
+bin/
+obj/
+TestResults/
+artifacts/
+packages/
+*.user
+*.suo
+*.nupkg
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+# IDE and operating-system noise
+.idea/
+.vscode/
+*.tmp
+*.temp
+*.log
+Thumbs.db
+Desktop.ini
+
+# Generated camera captures and correction output
+captures/
+output/
+generated/
