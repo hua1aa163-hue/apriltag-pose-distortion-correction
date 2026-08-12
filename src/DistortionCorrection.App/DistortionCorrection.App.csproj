@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>DistortionCorrection</AssemblyName>
+    <RootNamespace>DistortionCorrection</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260627" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.13.0.20260627" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MvCameraControl.Net">
+      <HintPath>D:\MVS\MVS\Development\DotNet\win64\netstandard2.0\MvCameraControl.Net.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="UI\CameraPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\CameraPage.Designer.cs">
+      <DependentUpon>CameraPage.cs</DependentUpon>
+    </Compile>
+    <Compile Update="UI\ProjectionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\ProjectionPage.Designer.cs">
+      <DependentUpon>ProjectionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Update="UI\CalibrationPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\CalibrationPage.Designer.cs">
+      <DependentUpon>CalibrationPage.cs</DependentUpon>
+    </Compile>
+    <Compile Update="UI\BatchWarpPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\BatchWarpPage.Designer.cs">
+      <DependentUpon>BatchWarpPage.cs</DependentUpon>
+    </Compile>
+    <Compile Update="UI\ManualAdjustmentPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\ManualAdjustmentPage.Designer.cs">
+      <DependentUpon>ManualAdjustmentPage.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

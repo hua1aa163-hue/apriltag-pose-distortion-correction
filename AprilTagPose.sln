@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprilTagPose.App", "src\AprilTagPose.App\AprilTagPose.App.csproj", "{51D88F1A-529C-4D7F-BE44-BC8C70F29298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D88F1A-529C-4D7F-BE44-BC8C70F29298}.Debug|x64.ActiveCfg = Debug|x64
+		{51D88F1A-529C-4D7F-BE44-BC8C70F29298}.Debug|x64.Build.0 = Debug|x64
+		{51D88F1A-529C-4D7F-BE44-BC8C70F29298}.Release|x64.ActiveCfg = Release|x64
+		{51D88F1A-529C-4D7F-BE44-BC8C70F29298}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal

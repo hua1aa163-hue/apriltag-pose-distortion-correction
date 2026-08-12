@@ -1,0 +1,27 @@
+{
+  "Version": 1,
+  "CreatedAtUtc": "2026-07-30T00:00:00Z",
+  "CameraSerial": "SELF-TEST",
+  "CanvasWidth": 1920,
+  "CanvasHeight": 1080,
+  "SourceContentWidth": 1920,
+  "SourceContentHeight": 1080,
+  "ExpectedInverseMappedWidth": 1777,
+  "ExpectedInverseMappedHeight": 687,
+  "Columns": 3,
+  "Rows": 3,
+  "SourcePoints": [
+    { "X": 10, "Y": 10 }, { "X": 960, "Y": 10 }, { "X": 1909, "Y": 10 },
+    { "X": 10, "Y": 540 }, { "X": 960, "Y": 540 }, { "X": 1909, "Y": 540 },
+    { "X": 10, "Y": 1069 }, { "X": 960, "Y": 1069 }, { "X": 1909, "Y": 1069 }
+  ],
+  "ProjectorPoints": [
+    { "X": 10, "Y": 10 }, { "X": 960, "Y": 10 }, { "X": 1909, "Y": 10 },
+    { "X": 10, "Y": 540 }, { "X": 960, "Y": 540 }, { "X": 1909, "Y": 540 },
+    { "X": 10, "Y": 1069 }, { "X": 960, "Y": 1069 }, { "X": 1909, "Y": 1069 }
+  ],
+  "DesiredCameraPoints": [],
+  "LastObservedCameraPoints": [],
+  "LastRmsErrorPixels": -1,
+  "DenseMapFile": null
+}

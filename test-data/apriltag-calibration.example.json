@@ -1,0 +1,16 @@
+{
+  "_comment": "模板中的 0 不是标定值；请用当前相机和 5472x3648 分辨率的真实标定结果替换。",
+  "Fx": 0.0,
+  "Fy": 0.0,
+  "Cx": 2735.5,
+  "Cy": 1823.5,
+  "K1": 0.0,
+  "K2": 0.0,
+  "P1": 0.0,
+  "P2": 0.0,
+  "K3": 0.0,
+  "ImageWidth": 5472,
+  "ImageHeight": 3648,
+  "CameraSerialNumber": "",
+  "CalibratedAt": null
+}
